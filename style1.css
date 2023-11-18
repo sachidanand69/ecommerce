@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Satisfy&family=Vina+Sans&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+li
+{
+	padding: 10px;
+}
+nav
+{
+	background-color: rgb(235, 171, 12);
+	color: black;
+}
+a{
+    text-decoration: none;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+ }
+ .Hero-Section
+ {
+ 	position: relative;
+ 	height: 300px;
+ 	width: 100%;
+/* 	background-color: grey;*/
+ 	display: inline-flex;
+ }
+ .hero1
+ {
+    position: relative;
+/*    display: inline-flex;*/
+    height: 280px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*    background-color: blue;*/
+    margin-left: 40px;
+ }
+ .hero2
+ {
+ 	position: relative;
+    display: inline-flex;
+    height: 280px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+/*    background-color: red;*/
+    background-image: url("img/christmas_2012-new_3005.jpg");
+    margin-left: 500px;
+    box-shadow: 0px 0px 10px grey;
+ }
+ .hero1 h3
+ {
+ 	font-weight: bold;
+ 	font-family: 'Kalam', cursive;
+ }
+ .hro1 h4
+ {
+
+ }
+ .inpt
+ {
+ 	margin-left: 30px;
+ 	height: 60px;
+ 	width: 300px;
+ 	padding: 10px;
+ }
+ #email
+ {
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: whitesmoke;
+ }
+ #signup
+ {
+ 	border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid grey;
+    background: transparent;
+ }
+ #signup:hover
+ {
+    transform: scale(0.95);
+    transition-duration: 1s;
+ }
+ .features
+ {
+    margin-top: 100px;
+ 	position: relative;
+ 	height: 300px;
+ 	width: 100%;
+    background-color: rgb(247, 247, 203);
+/* 	background-color: grey;*/
+ 	display: inline-flex;
+ }
+ .features div
+ {
+ 	position: relative;
+/*    display: inline-flex;*/
+    height: 280px;
+    width: 200px;
+    padding: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*    background-color: blue;*/
+    margin-left: 160px;
+
+ }
+ .test
+ {
+ 	position: relative;
+ 	height: 400px;
+ 	width: 100%;
+ 	background-color: grey;
+ 	display: inline-flex;
+ 	z-index: -2;
+ }
+ .carousel{
+    margin-top: 100px;
+ }
+ #carouselExampleIndicators
+ {
+ 	width: 100%;
+ }
+.carousel-item img
+{
+	margin-left: 39%;
+	position: relative;
+	height: 200px;
+	width: 300px;
+	display: inline-flex;
+}
+.carousel-item
+{
+	position: relative;
+	display: inline-flex;
+}
+.test1
+{
+	position: absolute;
+	z-index: ;
+	margin-left: 500px;
+	height: 300px;
+	width: 300px;
+	background-color: grey;
+}
+.testinner
+{
+	position: relative;
+	height: 1000px;
+	width: 400px;
+	background-color: black;
+}
+.f1
+{
+	background-image: url("img/sofa.jpg");
+	background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px grey;
+}
+.f2
+{
+	background-image: url("img/bigsofa.jpg");
+	background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px grey;
+}
+.f3
+{
+	background-image: url("img/work.jpg");
+	background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px grey;
+}
+.contact
+{
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+/*  background-color: grey;*/
+    display: inline-flex;
+}
+.c1
+{
+    position:absolute;
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+}
+.c2
+{
+    position:absolute;
+    height: 300px;
+    width: 400px;
+    margin-left: 800px;
+/*    background-color: blue;*/
+}
+.features button
+{
+    border: none;
+    border-radius: 3px;
+    background-color: orange;
+}
+.features button:hover
+{
+    transform: scale(0.95);
+    transition-duration: 1s;
+}
+.about1
+{
+    margin-top: 100px;
+}
+.about{
+    display: inline-flex;
+    margin-left: 700px;
+    padding: 10px;
+}
+.about div
+{
+    padding: 10px;
+}
